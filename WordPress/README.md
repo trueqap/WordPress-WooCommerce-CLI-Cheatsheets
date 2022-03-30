@@ -1,6 +1,6 @@
 # WordPress CLI Cheatsheets
 
-## Database management
+## Database Management
 
 ### Exports the database to a file (mysqldump)
 
@@ -27,3 +27,17 @@ Runs SQL queries using DB_HOST, DB_NAME, DB_USER and DB_PASSWORD database creden
 ### Delete all transients.
 
 `wp transient delete --all`
+
+## User Management
+
+### To Create a New Administrator User
+
+`wp user create USERNAME EMAIL@DOMAIN.COM --role=administrator`
+
+### To Remove a User
+
+`wp user delete USERNAME`
+
+### To Change a User's Role
+
+`wp user update USERNAME --role=ROLE`
