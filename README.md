@@ -1,1 +1,1 @@
-# WordPress-WooCommerce-CLI-Cheatsheets
+# WordPress and WooCommerce CLI Cheatsheets
