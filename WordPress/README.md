@@ -14,17 +14,17 @@ Runs SQL queries using DB_HOST, DB_NAME, DB_USER and DB_PASSWORD database creden
 
 `wp db import`
 
-### Imports a database from a file
+### Imports a Database from a File
 
 Runs SQL queries using DB_HOST, DB_NAME, DB_USER and DB_PASSWORD database credentials specified in wp-config.php.
 
 `wp db import`
 
-### Delete expired transients.
+### Delete Expired Transients.
 
 `wp transient delete --expired`
 
-### Delete all transients.
+### Delete All Transients.
 
 `wp transient delete --all`
 
@@ -41,3 +41,7 @@ Runs SQL queries using DB_HOST, DB_NAME, DB_USER and DB_PASSWORD database creden
 ### To Change a User's Role
 
 `wp user update USERNAME --role=ROLE`
+
+---
+
+[Check the official WP-CLI documentation for additional information.](https://developer.wordpress.org/cli/commands/)
